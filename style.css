@@ -1,0 +1,56 @@
+/* Reset beberapa gaya dasar */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Section Info */
+.info-section {
+    background-color: #f8f9fa;
+}
+
+.info-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Section Card */
+.card-section .card {
+    margin-bottom: 20px;
+}
+
+/* Table Section */
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-section th, .table-section td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table-section th {
+    background-color: #f1f1f1;
+}
+
+   
